@@ -1,0 +1,47 @@
+.hero{
+    margin-left:200px;
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    /* border: 1px solid black; */
+  }
+  #hero-text, #hero-image{
+    flex:1;
+    align-self: center;
+  }
+  .button{
+    padding: 10px 25px;
+    border: 2px solid #eec0a0;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    color: #b91c1c;
+    cursor: pointer;
+  }
+  p{
+    margin: 15px 0 15px 0;
+  }
+  #hero-image img{
+    width: 70%;
+    /* border: 1px solid black; */
+    margin-right: 0px;
+  }
+  #hero-image{
+    justify-self: flex-end;
+    text-align: right;
+  }
+  .hero-container{
+    /* border: 1px solid black; */
+    background: linear-gradient(to bottom, #fffcfc, #fecbcb);
+    height: auto;
+  }
+
+  @media only screen and (max-width: 965px) {
+    .hero{
+        margin: 20px;
+    }
+    .hero-container{
+      height: auto;
+      padding: 20px;
+    }
+  }

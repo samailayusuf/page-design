@@ -1,0 +1,38 @@
+.services{
+    margin: 30px 200px 30px 200px;
+    height: 40vh;
+  }
+  .services-list{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+  }
+  .service{
+    width: 33%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .blueish{
+      background-color: #1e3a8a;
+  }
+  .redish{
+      background-color:#78350f;
+  }
+  .brownish{
+      background-color: #7f1d1d;
+  }
+
+
+  @media only screen and (max-width: 965px) {
+    .services{
+      margin: 10px 50px 10px 50px;
+      height: 40vh;
+    }
+  }
